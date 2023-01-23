@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { FC } from "react";
 
-function App() {
+interface Props {}
+
+const App: FC<Props> = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        paddingTop: 100,
+      }}
+    >
+      <h1 style={{ fontSize: 42 }}>Pavel & Jelizaveta</h1>
+      <div style={{ width: 500 }}>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+        consequatur distinctio, eius inventore maiores molestias non nostrum
+        reprehenderit, totam vero voluptate voluptatum. Ad aperiam at aut autem
+        commodi delectus dolorum eius enim, error esse exercitationem facere in
+        magnam magni nemo odit omnis placeat, quae quod recusandae saepe,
+        temporibus vero. Temporibus!
+      </div>
     </div>
   );
-}
+};
 
 export default App;

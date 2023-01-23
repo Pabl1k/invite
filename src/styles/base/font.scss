@@ -1,0 +1,16 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap'); // Bilbo Swash Caps
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap'); // Noto Serif
+
+#root {
+  // text
+   font-family: 'Noto Serif', serif; // Noto Serif - text
+   //font-family: 'Kiwi Maru', serif; // Kiwi Maru - text
+
+  h1 {
+    font-family: 'Bilbo Swash Caps', cursive; // +
+  }
+  //font-family: 'Calligraffitti', cursive;
+  //font-family: 'Romanesco', cursive;
+
+  color: #000;
+}
