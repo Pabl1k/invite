@@ -1,6 +1,7 @@
 import { FC } from "react";
-import "./DressCode.scss";
+import { ReactComponent as Heart } from "../../assets/heart.svg";
 import { translations } from "../../common/translations";
+import "./DressCode.scss";
 
 const DressCode: FC<{ language: 0 | 1 }> = ({ language }) => {
   const colors = [
@@ -16,7 +17,7 @@ const DressCode: FC<{ language: 0 | 1 }> = ({ language }) => {
       <span>
         <strong>{translations[language].dressCode}</strong>{" "}
         {translations[language].dressCodeText}
-        <span>&#10084;</span>
+        <Heart className="dressCode__heart" />
       </span>
       <div className="dressCode__container">
         {colors.map((x) => (

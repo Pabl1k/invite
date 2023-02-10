@@ -1,7 +1,7 @@
-import "./Map.scss";
+import { FC } from "react";
 import image from "../../assets/map/map1.jpg";
 import { translations } from "../../common/translations";
-import { FC } from "react";
+import "./Map.scss";
 
 const Map: FC<{ language: 0 | 1 }> = ({ language }) => {
   const link =
