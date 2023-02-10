@@ -1,0 +1,38 @@
+export const translations = [
+  {
+    months: "Месяцев",
+    days: "Дней",
+    hours: "Часов",
+    minutes: "Минут",
+    seconds: "Секунд",
+    august: "Август",
+    welcome: "ВЕЛКОМ - до",
+    ceremony: "ЦЕРЕМОНИЯ",
+    banquet: "БАНКЕТ",
+    celebrationPlace: "Место торжества:",
+    openInMaps: "Открыть в Google Maps",
+    dressCode: "Дресс-код:",
+    dressCodeText:
+      "Будем рады, если вы поддержите цветовую гамму нашей свадьбы или же отдадите предпочтения пастельным оттенкам",
+    timeLeft: "До события осталось",
+    finalText: "Будем рады видеть вас и ваши улыбки!",
+  },
+  {
+    months: "Mėnesių",
+    days: "Dienų",
+    hours: "Valandų",
+    minutes: "Minučių",
+    seconds: "Sekundžių",
+    august: "Rugpjūtis",
+    welcome: "WELCOME - iki ",
+    ceremony: "CEREMONIJA",
+    banquet: "BANKETAS",
+    celebrationPlace: "Šventės lokacija:",
+    openInMaps: "Atidaryti per Google Maps",
+    dressCode: "Dress-code:",
+    dressCodeText:
+      "Būsime laimingi, jeigu jus palaikysite mūsų vestuvių spalvų paletę arba jei pirmenybę teiksite pastelinių spalvų aprangai.",
+    timeLeft: "Iki šventės liko",
+    finalText: "Mums bus malonu matyti jus ir jūsų šypsenas!",
+  },
+];

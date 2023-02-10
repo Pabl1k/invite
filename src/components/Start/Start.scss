@@ -1,0 +1,36 @@
+.start {
+  width: 510px;
+  height: 600px;
+  background-image: url("../../assets/mainFt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+
+  @media only screen and (max-width: 600px) {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  span {
+    color: #fff;
+    margin-top: 200px;
+    font-size: 30px;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 5vw;
+      margin-top: 35vh;
+    }
+
+    @media only screen and (max-width: 500px) {
+      font-size: 6vw;
+      margin-top: 35vh;
+    }
+  }
+}

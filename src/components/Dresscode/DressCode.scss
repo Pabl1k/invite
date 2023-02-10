@@ -1,0 +1,36 @@
+.dressCode {
+  max-width: 400px;
+  text-align: center;
+
+  margin-top: 30px;
+
+  @media only screen and (max-width: 460px) {
+    width: 90vw;
+  }
+
+
+  &__container {
+    border: 2px solid #000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 20px;
+  }
+
+  &__circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+    //@media only screen and (max-width: 460px) {
+    //  width: 40px;
+    //  height: 40px;
+    //}
+
+    @media only screen and (max-width: 365px) {
+      width: 35px;
+      height: 35px;
+    }
+  }
+}

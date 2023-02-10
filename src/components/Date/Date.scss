@@ -1,0 +1,38 @@
+.date {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__with-lines {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 32px;
+
+
+    @media only screen and (max-width: 390px) {
+      font-size: 28px;
+    }
+
+    @media only screen and (max-width: 340px) {
+      font-size: 24px;
+    }
+  }
+
+  &__day {
+    font-size: 48px;
+    margin: 0 20px;
+
+    @media only screen and (max-width: 390px) {
+      font-size: 44px;
+    }
+
+    @media only screen and (max-width: 340px) {
+      font-size: 40px;
+    }
+  }
+}

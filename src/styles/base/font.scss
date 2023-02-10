@@ -1,16 +1,21 @@
- @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap'); // Bilbo Swash Caps
- @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap'); // Noto Serif
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap"); // Kiwi Maru
 
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 #root {
-  // text
-   font-family: 'Noto Serif', serif; // Noto Serif - text
-   //font-family: 'Kiwi Maru', serif; // Kiwi Maru - text
+  font-family: "Kiwi Maru", serif;
+  font-size: 18px;
 
-  h1 {
-    font-family: 'Bilbo Swash Caps', cursive; // +
-  }
-  //font-family: 'Calligraffitti', cursive;
-  //font-family: 'Romanesco', cursive;
+  color: #363636;
+}
+
+.namesFont {
+  font-family: 'Alex Brush', cursive;
 
   color: #000;
+}
+
+.disableSelect {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

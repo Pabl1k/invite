@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.timer {
+  text-align: center;
+  margin-top: 30px;
+
+  &__container {
+    display: flex;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    text-align: center;
+    border-right: 1px solid #000;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+    &:last-child {
+      margin-right: 0;
+      border-right: none;
+    }
+
+    @media only screen and (max-width: 420px) {
+      padding-right: 8px;
+      font-size: 18px;
+    }
+
+    @media only screen and (max-width: 365px) {
+      padding-right: 5px;
+      font-size: 16px;
+    }
+
+    &.lt {
+      @media only screen and (max-width: 500px) {
+        font-size: 18px;
+      }
+
+      @media only screen and (max-width: 460px) {
+        font-size: 16px;
+        padding-right: 6px;
+      }
+
+      @media only screen and (max-width: 410px) {
+        font-size: 14px;
+      }
+
+      @media only screen and (max-width: 360px) {
+        font-size: 12px;
+        padding-right: 4px;
+      }
+    }
+  }
+
+  &__digits {
+    font-family: 'Michroma', sans-serif;
+  }
+}

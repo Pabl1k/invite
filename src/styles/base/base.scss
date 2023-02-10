@@ -1,11 +1,13 @@
 #root {
-  --i-light-green: #a8b290;
+  --i-light-green: #cbd7ad;
   --i-green: #687363;
   --i-white: #f1e4d3;
   --i-pink: #cdaa94;
 
-  background-color: var(--i-green);
+  background-color: #f4f1f1;
 
-  width: 100vw;
+  overflow-x: hidden;
   min-height: 100vh;
+
+  padding-bottom: 30px;
 }
