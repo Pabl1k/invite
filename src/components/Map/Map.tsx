@@ -10,7 +10,7 @@ const Map: FC<{ language: 0 | 1 }> = ({ language }) => {
   return (
     <div className="map">
       <strong>{translations[language].celebrationPlace}</strong>
-      <span style={{ fontSize: 16 }}>Bebrų kalnas, Utenos apsk.</span>
+      <span style={{ fontSize: 16 }}>Sodyba "Bebrų kalnas", Utenos apsk.</span>
       <a
         href={link}
         target="_blank"
